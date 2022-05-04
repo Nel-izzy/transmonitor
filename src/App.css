@@ -30,13 +30,14 @@
   border-right: 1px solid black;
 }
 .box {
-  height: 250px !important;
+  height: 250px;
+  margin-top: 20px;
 }
 
-/* .sidebar,
+.sidebar,
 .content {
-  height: 1000px !important;
-} */
+  height: 1000px;
+}
 
 .sidebar {
   border: 2px solid #fff;
@@ -50,4 +51,19 @@
 }
 .list-group-item {
   border: none;
+}
+
+.ojo,
+.hello {
+  font-size: 10px;
+  margin: 0 -20px 0 20px;
+}
+.search-input {
+  border: none;
+  border-bottom: 1px solid #cccc;
+}
+
+.payments,
+.orders {
+  margin-top: 20px;
 }

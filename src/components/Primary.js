@@ -7,7 +7,7 @@ const Primary = () => {
   return (
     <div className="container">
       <Navbar />
-      <div className="row ">
+      <div className="row main-wrapper">
         <div className="col-md-2">
           <Sidebar />
         </div>

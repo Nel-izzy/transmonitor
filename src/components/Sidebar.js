@@ -16,12 +16,27 @@ const Sidebar = () => {
         <li class="list-group-item">
           <img src="./images/Vector-2.png" /> Overview
         </li>
-        <li class="list-group-item">Payments</li>
-        <li class="list-group-item">All Payments</li>
-        <li class="list-group-item">Reconciled Payments</li>
-        <li class="list-group-item">UnReconciled Payments</li>
-        <li class="list-group-item">Manual Settlement</li>
-        <li class="list-group-item">Orders</li>
+        <li class="list-group-item payments">Payments</li>
+        <li class="list-group-item">
+          {" "}
+          <i className="fa-solid fa-wallet" /> All Payments
+        </li>
+        <li class="list-group-item">
+          {" "}
+          <i className="fa-solid fa-wallet" />
+          Reconciled Payments
+        </li>
+        <li class="list-group-item">
+          {" "}
+          <i className="fa-solid fa-wallet" />
+          UnReconciled Payments
+        </li>
+        <li class="list-group-item">
+          {" "}
+          <i className="fa-solid fa-wallet" />
+          Manual Settlement
+        </li>
+        <li class="list-group-item orders">Orders</li>
         <li class="list-group-item">All Orders</li>
         <li class="list-group-item">Pending Orders</li>
         <li class="list-group-item">Reconciled Orders</li>

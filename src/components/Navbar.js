@@ -22,19 +22,11 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <input
-                className="form-control me-2"
+                className="form-control me-2 search-input"
                 type="search"
                 placeholder="Search..."
                 aria-label="Search"
               />
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link">Disabled</a>
             </li>
           </ul>
           <ul className="d-flex" style={{ listStyleType: "none" }}>
@@ -55,6 +47,9 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
+              <span className="hello">Hello</span>
+              <span className="ojo">Oluwaleke Ojo</span>
+
               <img
                 src="./images/IMG-20180413-WA0005.png"
                 class="img-rounded"

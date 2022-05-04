@@ -99,7 +99,9 @@ const Content = () => {
         <h3>Payments</h3>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <span className="navbar-text">Showing</span>
+            <span className="navbar-text" style={{ marginLeft: "-30px" }}>
+              Showing
+            </span>
             <button
               className="navbar-toggler"
               type="button"
@@ -113,24 +115,32 @@ const Content = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <select>
-                    {" "}
-                    <option value={20}>20</option>{" "}
-                  </select>
-                  <span className="navbar-text">Out of 500 Payments</span>
-                </li>
-                <li className="nav-item">
+                <select
+                  style={{
+                    margin: "5px",
+                    border: "none",
+                    borderBottom: "1px solid #ccc",
+                  }}
+                  className="text-primary"
+                >
+                  {" "}
+                  <option value={20}> 20</option>{" "}
+                </select>
+                <span className="navbar-text"> out of 500 Payments</span>
+
+                <li className="nav-item" style={{ marginLeft: "70px" }}>
                   <input
-                    className="form-control me-2"
+                    className="form-control me-2 search-input"
                     type="search"
                     placeholder="Search..."
                     aria-label="Search"
                   />
                 </li>
               </ul>
-              <span className="navbar-text">Show</span>
-              <div className="dropdown" style={{ marginRight: "200px" }}>
+              <span className="navbar-text" style={{ marginRight: "10px" }}>
+                Show
+              </span>
+              <div className="dropdown" style={{ marginRight: "100px" }}>
                 <a
                   className="btn btn-light dropdown-toggle"
                   href="#"
