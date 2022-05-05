@@ -2,25 +2,26 @@ import React from "react";
 
 const TableRow = ({ status, color, btnColor }) => {
   return (
-    <tr>
-      <td
-        style={{
-          width: "20px",
-          height: "20px",
-          backgroundColor: "grey",
-          borderRadius: "20px",
-          textAlign: "center",
-          color: "#fff",
-        }}
-      >
-        VW
+    <tr style={{ height: "20px" }}>
+      <td>
+        <button
+          className="btn btn-secondary"
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50%",
+            textAlign: "left",
+          }}
+        >
+          VW
+        </button>
       </td>
 
-      <td>Apple MacBook 15" 250 SSD 12GB</td>
-      <td>$73430</td>
-      <td>1234567890</td>
-      <td>12:30</td>
-      <td>
+      <td className="pt-3">Apple MacBook 15" 250 SSD 12GB</td>
+      <td className="pt-3">$73430</td>
+      <td className="pt-3">1234567890</td>
+      <td className="pt-3">12:30</td>
+      <td className="pt-3">
         <button
           className={`btn ${btnColor}`}
           style={{
@@ -34,7 +35,7 @@ const TableRow = ({ status, color, btnColor }) => {
           {status}
         </button>
       </td>
-      <td>
+      <td className="pt-3">
         <i class="fa-solid fa-angle-down"></i>
       </td>
     </tr>

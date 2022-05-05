@@ -1,4 +1,5 @@
 import React from "react";
+import Pagination from "./pagination";
 import ProgressBar from "./ProgressBar";
 import Table from "./Table";
 import TransactionBox from "./TransactionBox";
@@ -188,6 +189,7 @@ const Content = () => {
         </nav>
       </div>
       <Table />
+      <Pagination />
     </div>
   );
 };

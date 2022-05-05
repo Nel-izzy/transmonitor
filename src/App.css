@@ -64,6 +64,10 @@
 }
 
 .payments,
-.orders {
+.orders,
+.merchant {
   margin-top: 20px;
+}
+table > tr {
+  margin-top: 20px !important;
 }

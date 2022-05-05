@@ -47,7 +47,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <span className="hello">Hello</span>
+              {/* <span className="hello">Hello</span> */}
               <span className="ojo">Oluwaleke Ojo</span>
 
               <img

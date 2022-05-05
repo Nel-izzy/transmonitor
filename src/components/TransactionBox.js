@@ -3,7 +3,7 @@ import React from "react";
 const TransactionBox = ({ text, value }) => {
   return (
     <div className="col-md-3 ">
-      <div className="card " style={{ height: "60px" }}>
+      <div className="card " style={{ height: "60px", marginTop: "20px" }}>
         <div className="card-body transact">
           <div style={{ width: "350px" }}>
             <p className="text-muted" style={{ fontSize: "9px" }}>
