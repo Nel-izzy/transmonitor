@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/app">
           TransMonitor
         </a>
         <button
@@ -31,13 +31,15 @@ const Navbar = () => {
           </ul>
           <ul className="d-flex" style={{ listStyleType: "none" }}>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/app">
                 Support
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link">FAQ</a>
+              <a className="nav-link" href="/app">
+                FAQ
+              </a>
             </li>
             <li className="nav-item">
               <i class="fa-regular fa-bell mt-1" style={{ fontSize: "25px" }} />{" "}
@@ -53,7 +55,7 @@ const Navbar = () => {
               <img
                 src="./images/IMG-20180413-WA0005.png"
                 class="img-rounded"
-                alt="..."
+                alt="transmonitor"
               />
             </li>
           </ul>

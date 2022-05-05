@@ -17,7 +17,7 @@ const Sidebar = () => {
           Main
         </li>
         <li class="list-group-item">
-          <img src="./images/Vector-2.png" /> Overview
+          <img src="./images/Vector-2.png" alt="transmonitor" /> Overview
         </li>
         <li class="list-group-item payments">Payments</li>
         <li class="list-group-item">

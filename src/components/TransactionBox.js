@@ -14,12 +14,12 @@ const TransactionBox = ({ text, value }) => {
           <div>
             <img
               src="./images/vector-4.1.png"
-              alt=""
+              alt="transmonitor"
               style={{ marginTop: "-30px" }}
             />
             <img
               src="./images/vector-4.png"
-              alt=""
+              alt="transmonitor"
               style={{ marginTop: "-60px" }}
             />
           </div>

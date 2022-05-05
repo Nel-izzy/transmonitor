@@ -51,7 +51,11 @@ const Content = () => {
               </div>
 
               <div>
-                <img src="./images/Gradient.png" className="img-fluid" alt="" />
+                <img
+                  src="./images/Gradient.png"
+                  className="img-fluid"
+                  alt="transmonitor"
+                />
               </div>
             </div>
           </div>
@@ -144,7 +148,7 @@ const Content = () => {
               <div className="dropdown" style={{ marginRight: "100px" }}>
                 <a
                   className="btn btn-light dropdown-toggle"
-                  href="#"
+                  href="/app"
                   role="button"
                   id="dropdownMenuLink"
                   data-bs-toggle="dropdown"
@@ -158,27 +162,27 @@ const Content = () => {
                   aria-labelledby="dropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/app">
                       All
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/app">
                       Reconciled
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/app">
                       Un-Reconciled
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/app">
                       Settled
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/app">
                       Un-Settled
                     </a>
                   </li>
