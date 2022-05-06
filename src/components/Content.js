@@ -26,7 +26,7 @@ const Content = () => {
                 >
                   <div>
                     <select className="form-select" style={{ height: "40px" }}>
-                      <option value="1 Jan-1 June">1 Jan- 1 June</option>
+                      <option value="1 Jan-1 June">1 Jan-1 June</option>
                     </select>
                   </div>
                   <div style={{ marginRight: "10px", marginLeft: "10px" }}>
@@ -87,7 +87,12 @@ const Content = () => {
         <div className="col-md-4">
           <div
             className="card"
-            style={{ marginLeft: "-20px", height: "125px", marginTop: "20px" }}
+            style={{
+              marginLeft: "-20px",
+              height: "135px",
+              marginTop: "20px",
+              paddingBottom: "10px",
+            }}
           >
             <div className="card-body">
               <div>
@@ -108,7 +113,11 @@ const Content = () => {
           {/* End of first card */}
           <div
             className="card"
-            style={{ marginLeft: "-20px", height: "125px" }}
+            style={{
+              marginLeft: "-20px",
+              height: "135px",
+              paddingBottom: "10px",
+            }}
           >
             <div className="card-body">
               <div>

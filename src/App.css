@@ -16,6 +16,7 @@ body {
 }
 .navbar1 {
   border: 1px solid #fafafa;
+  font-size: 14px;
 }
 .img-rounded {
   border-radius: 30px;
@@ -55,7 +56,7 @@ body {
   font-weight: 500;
 }
 .box {
-  height: 250px;
+  height: 270px;
   margin-top: 20px;
 }
 
@@ -79,6 +80,7 @@ body {
 }
 .navbar2 {
   background: #fafafa !important;
+  font-size: 14px;
 }
 
 .ojo,
@@ -130,6 +132,7 @@ table > thead > tr > th {
   color: #7f8fa4;
   font-size: 14px;
 }
+
 .item-type {
   position: relative;
 }
@@ -152,4 +155,16 @@ table > thead > tr > th {
 .items-row > td {
   font-size: 14px;
   color: #7f8fa4;
+}
+.overview {
+  background-color: #afc7e6;
+  opacity: 0.4;
+}
+
+.text {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #647787;
 }

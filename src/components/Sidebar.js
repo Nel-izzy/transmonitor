@@ -16,8 +16,9 @@ const Sidebar = () => {
         <li class="list-group-item" style={{ listStyleType: "none" }}>
           Main
         </li>
-        <li class="list-group-item">
-          <img src="./images/Vector-2.png" alt="transmonitor" /> Overview
+        <li class="list-group-item overview">
+          <img src="./images/Vector-2.png" alt="transmonitor" />{" "}
+          <span className="text">Overview</span>
         </li>
         <li class="list-group-item payments">Payments</li>
         <li class="list-group-item">
