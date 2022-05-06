@@ -30,30 +30,52 @@ const Content = () => {
                     </select>
                   </div>
                   <div style={{ marginRight: "10px", marginLeft: "10px" }}>
-                    <button className="btn btn-light ">{"<"}</button>
+                    <button className="btn btn-light btn-arrow">{"<"}</button>
                   </div>
                   <div>
-                    <button className="btn btn-light">{">"}</button>
+                    <button className="btn btn-light btn-arrow">{">"}</button>
                   </div>
                 </div>
               </div>
 
               <div
-                style={{ display: "flex", justifyContent: "space-between" }}
-                className="months"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  marginTop: "10px",
+                }}
               >
-                <p>Jan</p>
-                <p>Feb</p>
-                <p>Mar</p>
-                <p>Apr</p>
-                <p>May</p>
-                <p>Jun</p>
+                <div className="month-name">
+                  <p>Jan</p>
+                  <p className="month"></p>
+                </div>
+
+                <div className="month-name">
+                  <p>Feb</p>
+                  <p className="month"></p>
+                </div>
+                <div className="month-name">
+                  <p>Mar</p>
+                  <p className="month"></p>
+                </div>
+                <div className="month-name">
+                  <p>Apr</p>
+                  <p className="month"></p>
+                </div>
+                <div className="month-name">
+                  <p>May</p>
+                  <p className="month"></p>
+                </div>
+                <div className="month-name">
+                  <p>Jun</p>
+                  <p className="month last"></p>
+                </div>
               </div>
 
               <div>
                 <img
                   src="./images/Gradient.png"
-                  className="img-fluid"
+                  className="img-fluid graph"
                   alt="transmonitor"
                 />
               </div>
@@ -63,7 +85,10 @@ const Content = () => {
         {/* End of Col-md-8 */}
 
         <div className="col-md-4">
-          <div className="card box">
+          <div
+            className="card"
+            style={{ marginLeft: "-20px", height: "125px", marginTop: "20px" }}
+          >
             <div className="card-body">
               <div>
                 <h6>Orders</h6>
@@ -78,6 +103,14 @@ const Content = () => {
                   Total Orders: <span className="text-primary">100</span>
                 </p>
               </div>
+            </div>
+          </div>
+          {/* End of first card */}
+          <div
+            className="card"
+            style={{ marginLeft: "-20px", height: "125px" }}
+          >
+            <div className="card-body">
               <div>
                 <h6>Payments</h6>
                 <ProgressBar />
@@ -101,10 +134,10 @@ const Content = () => {
       {/* End of Row */}
 
       <div>
-        <h3>Payments</h3>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <h3 className="mt-4">Payments</h3>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar2">
           <div className="container-fluid">
-            <span className="navbar-text" style={{ marginLeft: "-30px" }}>
+            <span className="navbar-text" style={{ marginLeft: "-25px" }}>
               Showing
             </span>
             <button
@@ -120,20 +153,34 @@ const Content = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarText">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <select
-                  style={{
-                    margin: "5px",
-                    border: "none",
-                    borderBottom: "1px solid #ccc",
-                  }}
-                  className="text-primary"
+                <li
+                  className="nav-item"
+                  style={{ marginLeft: "20px", marginTop: "5px" }}
                 >
-                  {" "}
-                  <option value={20}> 20</option>{" "}
-                </select>
-                <span className="navbar-text"> out of 500 Payments</span>
+                  <select
+                    style={{
+                      border: "none",
+                      borderBottom: "1px solid #ccc",
+                    }}
+                    className="text-primary"
+                  >
+                    {" "}
+                    <option value={20}> 20</option>{" "}
+                  </select>
+                </li>
+                <li
+                  className="nav-item"
+                  style={{ marginLeft: "10px", marginTop: "5px" }}
+                >
+                  <span className="navbar-text"> out of 500 Payments</span>
+                </li>
 
-                <li className="nav-item" style={{ marginLeft: "70px" }}>
+                <li className="nav-item nav-search2">
+                  <img
+                    src="./images/Search.png"
+                    alt="Transmonitor"
+                    className="search-icon"
+                  />
                   <input
                     className="form-control me-2 search-input"
                     type="search"
@@ -145,7 +192,7 @@ const Content = () => {
               <span className="navbar-text" style={{ marginRight: "10px" }}>
                 Show
               </span>
-              <div className="dropdown" style={{ marginRight: "100px" }}>
+              <div className="dropdown" style={{ marginRight: "155px" }}>
                 <a
                   className="btn btn-light dropdown-toggle"
                   href="/app"

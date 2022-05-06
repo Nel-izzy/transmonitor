@@ -1,7 +1,7 @@
 import React from "react";
 import TableRow from "./TableRow";
 
-const Table = ({ status }) => {
+const Table = () => {
   return (
     <table class="table">
       <thead>
@@ -10,7 +10,7 @@ const Table = ({ status }) => {
             Item Type
           </th>
           <th scope="col">Price</th>
-          <th scope="col">Transaction No</th>
+          <th scope="col">Transaction No.</th>
           <th scope="col">Time</th>
           <th scope="col" colSpan={2}>
             Status
@@ -28,7 +28,7 @@ const Table = ({ status }) => {
           color="grey"
           btnColor="btn-secondary"
         />
-        <TableRow status="Reconciled" color="green" btnColor="btn-warning" />
+        <TableRow status="Reconciled" color="green" btnColor="btn-success" />
         <TableRow
           status="Un-reconciled"
           color="grey"

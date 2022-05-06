@@ -6,8 +6,8 @@ import Content from "./Content";
 const Primary = () => {
   return (
     <div className="container">
-      <Navbar />
       <div className="row main-wrapper">
+        <Navbar />
         <div className="col-md-2">
           <Sidebar />
         </div>

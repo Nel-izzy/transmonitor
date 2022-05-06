@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
 .bg-light {
   background-color: #fff !important;
 }
@@ -9,9 +14,14 @@
   line-height: 28px;
   color: #1875f0 !important;
 }
+.navbar1 {
+  border: 1px solid #fafafa;
+}
 .img-rounded {
-  border-radius: 40px;
-  margin-left: 20px;
+  border-radius: 30px;
+  margin-left: -20px;
+  height: 30px;
+  width: 30px;
 }
 
 .rounded-pill {
@@ -26,8 +36,23 @@
   justify-content: space-between;
 }
 
-.months > p > span {
-  border-right: 1px solid black;
+.month {
+  border-right: 1px solid #f5f2f2;
+  height: 160px;
+  margin-left: 40px;
+}
+
+.month.last {
+  border: none;
+}
+
+.graph {
+  margin-top: -140px;
+}
+.month-name {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
 }
 .box {
   height: 250px;
@@ -52,15 +77,37 @@
 .list-group-item {
   border: none;
 }
+.navbar2 {
+  background: #fafafa !important;
+}
 
 .ojo,
 .hello {
   font-size: 10px;
   margin: 0 -20px 0 20px;
+  width: 80px;
+}
+.hello {
+  margin-left: 60px;
 }
 .search-input {
   border: none;
   border-bottom: 1px solid #cccc;
+  margin-left: 20px;
+}
+.nav-search {
+  margin-left: 70px;
+  margin-top: -30px;
+}
+
+.nav-search2 {
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+.btn-arrow {
+  background-color: #cccfd4;
+  color: #929191;
 }
 
 .payments,
@@ -70,4 +117,39 @@
 }
 table > tr {
   margin-top: 20px !important;
+}
+.search-icon {
+  display: inline-block;
+  margin-bottom: -60px;
+}
+table > thead {
+  background: #eaeef0;
+}
+table > thead > tr > th {
+  font-weight: lighter;
+  color: #7f8fa4;
+  font-size: 14px;
+}
+.item-type {
+  position: relative;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 12px;
+}
+
+.vw-img {
+  height: 36px;
+  width: 36px;
+}
+.items-row {
+  background: #fff;
+}
+.items-row > td {
+  font-size: 14px;
+  color: #7f8fa4;
 }

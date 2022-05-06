@@ -16,7 +16,7 @@ const Pagination = () => {
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="/app">
+              <a class="page-link text-secondary" href="/app">
                 2
               </a>
             </li>

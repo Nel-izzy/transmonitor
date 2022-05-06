@@ -2,22 +2,19 @@ import React from "react";
 
 const TableRow = ({ status, color, btnColor }) => {
   return (
-    <tr style={{ height: "20px" }}>
-      <td>
-        <button
-          className="btn btn-secondary"
-          style={{
-            height: "50px",
-            width: "50px",
-            borderRadius: "50%",
-            textAlign: "left",
-          }}
-        >
-          VW
-        </button>
+    <tr style={{ background: "#fff" }} className="items-row">
+      <td className="item-type">
+        <img
+          src="./images/Ellipse.png"
+          alt="Transmonitor"
+          className="vw-img img-fluid"
+        />{" "}
+        <span className="centered">VW</span>
       </td>
 
-      <td className="pt-3">Apple MacBook 15" 250 SSD 12GB</td>
+      <td className="pt-3" style={{ color: "#414042" }}>
+        Apple MacBook 15" 250 SSD 12GB
+      </td>
       <td className="pt-3">$73430</td>
       <td className="pt-3">1234567890</td>
       <td className="pt-3">12:30</td>
@@ -35,7 +32,7 @@ const TableRow = ({ status, color, btnColor }) => {
           {status}
         </button>
       </td>
-      <td className="pt-3">
+      <td className="pt-3" style={{ paddingRight: "30px" }}>
         <i class="fa-solid fa-angle-down"></i>
       </td>
     </tr>
